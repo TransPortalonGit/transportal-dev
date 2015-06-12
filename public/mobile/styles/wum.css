@@ -1,0 +1,183 @@
+
+/*
+@font-face {
+	font-family:"stxihei";
+	src:url("fonts/stxihei.ttf");
+}
+*/
+html, body{
+	height: 100%;
+	width:100%;
+	overflow:hidden;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.login-logo-div
+{
+	height:10em;
+	background-image:url(../Images/logo_transportal_green.svg);
+	background-repeat:no-repeat;
+	background-size:80%;
+	background-position:center center;
+}
+
+.formLabel
+{
+	color:#34A16A;
+	font-size:1.5em !important;
+}
+
+.ui-header {
+    background: #34A16A !important;
+	background-image:url(../Images/logo_transportal_green.svg);
+	background-size:80%;
+}
+
+.header-logo-container
+{
+	height:10em;
+}
+.header-logo
+{
+	background-image:url(../Images/logo_transportal_white.svg);
+	background-repeat:no-repeat;
+	background-size:10em;
+	background-position:center center;
+}
+
+.header-exit-btn {
+    background-image:url(../Images/button_logout.svg) !important;
+	background-size:3em;
+	border-color:#34A16A !important;
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+.header-options-btn {
+    background-image:url(../Images/button_menu.svg) !important;
+	background-size:3em;
+	border-color:#34A16A !important;
+	background-repeat:no-repeat;
+	background-position:left;
+}
+
+.header-home-btn {
+    background-image:url(../Images/logo_transportal_white.svg) !important;
+	background-size:3em;
+	border-color:#34A16A !important;
+	background-repeat:no-repeat;
+	background-position:left;
+}
+
+.slideshow 
+{ 
+	height: 260px; 
+	width: 282px; 
+	margin: auto 
+}
+.slideshow img 
+{ 
+	padding: 5px; 
+	border: 1px solid transparent; 
+	background-color:transparent; 
+}
+
+.homePageButtonContainer
+{
+	width:80%;
+	margin:0 auto;
+}
+
+.homePageProjects
+{ 
+	background-image:url(../Images/Button_Projects.svg);
+	background-repeat:no-repeat;
+	background-size:90%;
+	background-position:center center;
+	width:5em;
+	height:5em;
+	border-width:0 !important;
+	display:inline-block;
+}
+
+.homePageFablabs
+{ 
+	background-image:url(../Images/button_fablabs.svg);
+	background-repeat:no-repeat;
+	background-size:90%;
+	background-position:center center;
+	width:5em;
+	height:5em;
+	border-width:0 !important;
+	display:inline-block;
+}
+
+.homePageMembercard
+{ 
+	background-image:url(../Images/button_membercard.svg);
+	background-repeat:no-repeat;
+	background-size:90%;
+	background-position:center center;
+	width:5em;
+	height:5em;
+	border-width:0 !important;
+	display:inline-block;
+}
+
+.homePagePlanner
+{ 
+	background-image:url(../Images/button_planner.svg);
+	background-repeat:no-repeat;
+	background-size:90%;
+	background-position:center center;
+	width:5em;
+	height:5em;
+	border-width:0 !important;
+	display:inline-block;
+}
+
+
+.options-panel
+{
+	background-color:#636363;
+	color:#FFFFFF;
+}
+.options-panel-btn
+{
+	margin-top:1em;
+	font-size:1.5em;
+	cursor:pointer;
+}
+.project-title-back
+{
+	
+}
+
+.width-40pro
+{
+	width:40% !important;	
+}
+.float-right{
+	float:right;
+}
+.top-margin-em{
+	margin-top:1em;
+}
+
+a {
+	text-decoration:none !important;
+	text-shadow:none !important;
+}
+a:visited {
+	text-decoration:none !important;
+	text-shadow:none !important;
+}
+a:hover {
+	text-decoration:none !important;
+	text-shadow:none !important;
+}
+a:active {
+	text-decoration:none !important;
+	text-shadow:none !important;
+}
+

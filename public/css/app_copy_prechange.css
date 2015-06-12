@@ -1,0 +1,278 @@
+
+body {
+	margin-top: 60px;
+}
+
+.logo {
+	padding: 0;
+}
+
+.logo > img {
+	height:	40px;
+	margin-top: 5px;
+}
+
+
+.shield {
+	position: relative;
+}
+
+
+hr {
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+	background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+	background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+	border: 0;
+}
+
+.modal {
+	z-index: 9999;	
+}
+
+.modal-vertical-centered {
+transform: translate(0, 50%) !important;
+-ms-transform: translate(0, 50%) !important; /* IE 9 */
+-webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
+}
+
+.content_container > .header {
+	height: 110px;
+	width: auto;
+	padding: 0;
+}
+
+.content_container {
+	min-height: 500px;
+	width: 960px; /* width of the main content*/
+	background-color: #fafafa;
+}
+
+footer {
+	color:#ccc;
+	text-align: center;
+	padding: 20px;
+}
+
+
+.icon-big:before{font-size:1.3333333333333em;line-height:0.4em;}
+.icon-green{color:#0a0;}
+.icon-red{color:#da4f49;}
+.icon-orange{color:#f89406;}
+
+
+
+
+/*
+.carousel-caption {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 15px;
+	background: rgba(255, 255, 255, 0.96);
+}
+
+.carousel-caption h4,
+.carousel-caption p {
+	color: #999;
+	font-weight: 200;
+}
+*/
+
+
+
+
+#sectionbar li.active a {
+	background: #2388ca;
+	color: #fff;
+}
+
+#sectionbar .icon-chevron-right {
+	float: right;
+	margin-top: 4px;
+	margin-right: -6px;
+}
+
+
+
+
+#tutorial img,
+#project img
+{
+	border: solid 1px #ccc;
+}
+
+
+p.author { 
+	color: #2388ca;
+}
+
+#tutorial h3 {
+	font-size: 20px;
+	line-height: 25px;
+
+}
+
+.cover-item {
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+	margin-bottom: 20px;
+}
+
+
+.cover-item h2 {
+	font-weight: 200;
+	margin-bottom: 5px;
+	font-size: 31.5px;
+	line-height: 40px;
+}
+
+.cover-item h2 a {
+	text-decoration: none;
+}
+
+.cover-item .cover-item-content {
+	padding: 10px;
+}
+
+.cover-item .cover-item-author {
+	padding: 10px;
+	background: #f0f0f0;
+}
+
+.cover-item:hover {
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 1);
+}
+.cover-item:hover h2 a {
+	color: #005580;
+}
+
+
+
+
+/* NAVIGATION STYLES */
+
+.navbar-default,
+.navbar-default:after {
+	background: #34826A;
+}
+
+
+
+.navbar-default .navbar-nav > .active > a {
+	background: #fc0;
+}
+
+/*
+.nav.nav-pills > li > a {
+	color: white;
+	background: transparent;
+	border-radius: 0;
+
+}
+
+.nav.nav-pills > li.active > a {
+	background: #1abc9c;
+
+}
+
+.nav.nav-pills > li > a:hover {
+	background: #1abc9c;
+
+} 
+*/
+.profile_header{
+	width: 960px;
+	height:130px;
+}
+.brief_profile {
+	float:left;
+	margin:10px;
+	border-radius: 0;
+}
+.img-thumbnail {
+	border-radius: 0;
+	border:none;
+}
+.bio{
+	width: 250px;
+	margin: 10px;
+	float:left;
+}
+.basic_info{
+	float: left;
+	margin:10px;
+	margin-left: 37px;
+}
+
+.nav.nav-pills > li > a {
+	color: white;
+	background: transparent;
+	background-color: #4b4b4b;
+	border-radius: 0;
+}
+
+.nav.nav-pills > li {
+	width: 19.50%;
+	border: 0;
+	text-align: center;
+}
+
+.nav.nav-pills > li.active > a {
+	background: #34a26a;
+}
+
+.nav.nav-pills > li > a:hover {
+	background: #34a26a;
+} 
+
+.thumbnail {
+	height: auto;
+	width: 100%;
+	border: 2px solid white;
+	border-radius: 0;
+}
+
+.form-control {
+	border-radius: 0;
+	background-color: #1abc9c;
+	color: #ffffff;
+	border: 0;
+}
+.main_tabs {
+
+	margin: 0 auto;
+  	width: auto;
+  	padding: 0;
+}
+
+.commentPic > a > img {
+	height: 50px;
+	width: 50px;
+	border-radius: 0;
+
+}
+.commentName {
+	margin-left: 5px;
+	line-height: 10px;
+	font-size: 12px;
+}
+.timeStampe {
+	margin-left: 60px;
+}
+.timeStampe > div> a {
+	color: #bec3c7;
+}
+.pull-right {
+  float: right;
+  margin-right: 20px;
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+}
+.commentTime{
+	color: #bec3c7;
+}

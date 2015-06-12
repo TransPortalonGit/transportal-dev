@@ -1,0 +1,158 @@
+/*-------------Styling for Questions begin here ------------------*/
+
+/*******************************************
+CSS Clear
+*******************************************/
+
+.question a {
+    padding: 0;
+    margin: 0;
+    color: black;
+    height: auto;
+    width: auto;
+}
+.question a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.pagination>.active>span {
+    background-color: #2e9664;
+    border-color: #2e9664;
+}
+.pagination>.active>span:hover {
+    background-color: #2e9664;
+    border-color: #2e9664;
+}
+
+
+
+/*******************************************
+Textstyles
+*******************************************/
+.text h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: #606060;
+    padding-bottom: 3px;
+    border-bottom: 1px #2e9664 dotted;
+    width: 100%;
+}
+.text h3 {
+
+}
+.text h4 {
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+
+.text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-align: justify;
+    margin: 0;
+    font-weight: 300;
+}
+
+/*******************************************
+TextAreaStyles, Containers and Forms
+*******************************************/
+.container1{
+    margin-left: 210px;
+    width: 660px;
+}
+.single-question {
+    position: relative;
+    background-color: #fff;
+    margin-top: 8px;
+    padding: 5px 20px;
+    padding-top: 10px;
+    border-bottom: 1px #e0e0e0 solid;
+    max-height: 100px;
+    overflow: hidden;
+    border-radius: 4px;
+
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.single-question-full {
+    max-height: 500px;
+
+    -webkit-transform: scale(1.02);
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.52);
+    -moz-box-shadow:    0px 3px 10px 0px rgba(50, 50, 50, 0.52);
+    box-shadow:         0px 3px 10px 0px rgba(50, 50, 50, 0.52);
+
+    -webkit-transition: all 0.3s ease-out;;
+    -moz-transition: all 0.3s ease-out;;
+    transition: all 0.3s ease-out;;
+}
+
+/*******************************************
+Buttons
+*******************************************/
+
+.submit-button {
+    margin-top: 20px;
+    background-color: #2e9664;
+    color: #fff;
+
+}
+.submit-button:hover {
+    color: #fff;
+
+    -webkit-transform: scale(1.02);
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(50, 50, 50, 0.52);
+    -moz-box-shadow:    0px 3px 10px 0px rgba(50, 50, 50, 0.52);
+    box-shadow:         0px 3px 10px 0px rgba(50, 50, 50, 0.52);
+
+    -webkit-transition: all 0.3s ease-out;;
+    -moz-transition: all 0.3s ease-out;;
+    transition: all 0.3s ease-out;;
+}
+.open-btn {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    border-radius: 50%;
+}
+.fa-times-circle {
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 2px;
+    color: #2e9664;
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.animate-rotate{
+    color: #e84e40;
+
+    -webkit-transform-origin: 51.4% 47.3%;
+    -moz-transform-origin: 51.4% 47.3%;
+    transform-origin: 51.4% 47.3%;
+
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+#ask-btn{
+    margin-top: 20px;
+}

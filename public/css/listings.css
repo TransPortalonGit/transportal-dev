@@ -1,0 +1,128 @@
+/* Create Listing */
+
+.info-box{
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.project-sorter-list {
+    list-style: none;
+    background-color: rgba(1,0,0,0.01);
+    margin: 0px;
+    padding: 0;
+}
+
+.project-sorter-list li {
+    float: none;
+    /* border: 2px solid #000; */
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.caption li {
+    margin-left: 0;
+}
+
+.choose-button{
+    border-radius:0;
+    background-color: #34a26a;
+    color: #ffffff;
+}
+
+.choose-button:active{
+    border-radius:0;
+    background-color: #69a286;
+    color: #ffffff;
+}
+
+.listings-button{
+    background-color: #34a26a;
+    color: white;
+}
+
+/***************** Index Listings *******************/
+.listings-grid{
+    margin-left: -15px;
+}
+
+.listings-grid > div{
+    float: left;
+    width: 232px;
+    padding: 15px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+}
+
+.listings-grid-title{
+    color: #34A26A;
+}
+
+.listings-grid-title:hover{
+    text-decoration: underline;
+}
+
+.listings-grid-frame{
+    width: 200px;
+    height: 150px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.listings-grid-caption{
+    margin-top: 10px;
+}
+
+.listing-grid-types{
+    font-size: 13px;
+}
+
+.listings-grid-time{
+    font-size: 12px;
+    text-align: right;
+}
+
+.horizontal-list{
+    margin: 0px;
+    padding: 0px;
+}
+
+.horizontal-list > li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/***************** Profile Listings *****************/
+
+.listing-status-body{
+    margin: 20px 0;
+    width: 140px;
+}
+
+.listing-status, .listing-status:hover{
+    color: #000000;
+}
+
+.listing-status-active, .listing-status-active:hover{
+    color: #ffffff;
+}
+
+.listing-image-frame{
+    border: 1px solid #cccccc;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+}
+
+
+/********Für die Projekte ********/
+.projects-grid-frame{
+    width: 200px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    overflow: hidden;
+}

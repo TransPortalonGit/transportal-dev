@@ -1,0 +1,148 @@
+.blue {
+	color: #428bca;
+}
+
+.green {
+	color: #5cb85c;
+}
+
+.yellow {
+	color: #5bc0de;
+}
+
+.orange {
+	color: #f0ad4e;
+}
+
+.red {
+	color: #d9534f;
+}
+
+.color-swatch.black {
+	background-color: #000;
+}
+
+.color-swatch.blue {
+	background-color:#428bca;
+}
+
+.color-swatch.green{
+	background-color:#5cb85c;
+}
+
+.color-swatch.cyan{
+	background-color:#5bc0de;
+}
+
+.color-swatch.orange {
+	background-color:#f0ad4e;
+}
+
+.color-swatch.red {
+	background-color:#d9534f;
+}
+
+
+.color-swatch {
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	display: block;
+	float: left;
+	height: 50px;
+	width: 50px;
+	line-height: 20px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0px;
+}
+
+
+.bigGlyphicon {
+	font-size:38px;
+	-webkit-transition: color .3s linear;				/*HIER*/
+	   -moz-transition: color .3s linear;				/*HIER*/
+	     -o-transition: color .3s linear;				/*HIER*/
+	        transition: color .3s linear;				/*HIER*/
+}
+
+.giantGlyphicon {
+	font-size:58pt;
+	-webkit-transition: color .3s linear;				/*HIER*/
+	   -moz-transition: color .3s linear;				/*HIER*/
+	     -o-transition: color .3s linear;				/*HIER*/
+	        transition: color .3s linear;				/*HIER*/
+
+}
+
+.belowLine {
+	border-top: 1px solid #CCC;
+	padding-top:5px;
+}
+
+.aboveLine {
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 5px;
+}
+
+.projectview {
+	font-size:95%;
+}
+
+.projectview h4 {
+	margin-top:0px;
+}
+
+.projectview .panel-heading{
+	padding:8px;
+}
+
+.projectview .panel-title{
+	font-size:14px;
+}
+
+.projectview .panel-title a {
+	text-decoration: underline;
+}
+
+.projectview .panel-title a:hover {
+	text-decoration: none;
+	font-color:rgb(52, 162, 106);
+}
+
+.projectview .carousel-inner {
+	height:350px;
+	position: relative;
+}
+
+.projectview .carousel-inner .item img {
+	min-height:50px;
+	max-height: 350px;
+	margin:auto;
+
+}
+
+.projects-grid div{
+	vertical-align: middle;
+	border: 1px solid #CCC;
+}
+
+
+.projectgrid img{
+	max-height:100%;
+	max-width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.noleftpadding div {
+	padding-left:0px;
+}
+
+.createproject form {
+	display:inline;
+}

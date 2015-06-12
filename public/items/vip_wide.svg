@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="2" y="13" width="45" height="25">
+		
+			<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+		<feBlend  in="source" in2="back" mode="normal"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="2" y="13" width="45" height="25" id="SVGID_1_">
+	<g filter="url(#Adobe_OpacityMaskFilter)">
+		<g>
+			<path fill="#FFFFFF" d="M13.016,33.012L8.165,18.018h3.381l3.339,10.542h0.042l3.381-10.542h3.403l-4.978,14.994H13.016z"/>
+			<path fill="#FFFFFF" d="M26.288,18.018v14.994h-3.297V18.018H26.288z"/>
+			<path fill="#FFFFFF" d="M35.948,18.018c0.938,0,1.735,0.137,2.395,0.41c0.657,0.273,1.193,0.634,1.606,1.082
+				c0.412,0.448,0.714,0.959,0.902,1.533s0.283,1.169,0.283,1.785c0,0.602-0.095,1.194-0.283,1.774
+				c-0.188,0.581-0.49,1.096-0.902,1.542c-0.413,0.448-0.949,0.81-1.606,1.082s-1.456,0.409-2.395,0.409h-3.466v5.376h-3.297V18.018
+				H35.948z M35.045,25.074c0.378,0,0.742-0.028,1.094-0.084c0.35-0.056,0.656-0.165,0.924-0.326
+				c0.266-0.161,0.479-0.388,0.641-0.682c0.16-0.294,0.24-0.679,0.24-1.155s-0.08-0.861-0.24-1.155
+				c-0.161-0.294-0.375-0.521-0.641-0.683c-0.268-0.161-0.574-0.271-0.924-0.326c-0.352-0.056-0.716-0.084-1.094-0.084h-2.562v4.494
+				L35.045,25.074L35.045,25.074z"/>
+		</g>
+	</g>
+</mask>
+<path opacity="0.5" mask="url(#SVGID_1_)" d="M47,26c0,6.627-5.373,12-12,12H14C7.373,38,2,32.627,2,26v-1c0-6.627,5.373-12,12-12
+	h21c6.627,0,12,5.373,12,12V26z"/>
+</svg>

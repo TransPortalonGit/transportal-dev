@@ -1,0 +1,62 @@
+	.redactor_toolbar li {
+		display:inline-block;
+	}
+	
+	.redactor_toolbar li a.redactor_btn {
+		background-image: none;
+		text-indent: 0;
+	}
+
+	.redactor_toolbar li a.redactor_btn:before {
+		position:absolute;
+		font-family:'FontAwesome';
+		font-size: 14px;
+		color: #666;
+		width: 25px;
+		height: 25px;
+		line-height: 25px;
+		text-align: center;
+		font-weight: normal;
+	}
+	
+	.redactor_toolbar li a.redactor_btn_html:before				{ content:"\f121"; }
+	.redactor_toolbar li a.redactor_btn_formatting:before		{ content:"\f034"; }
+	.redactor_toolbar li a.redactor_btn_bold:before				{ content:"\f032"; }
+	.redactor_toolbar li a.redactor_btn_italic:before			{ content:"\f033"; }
+	.redactor_toolbar li a.redactor_btn_underline:before 		{ content:"\f0cd"; }
+
+	.redactor_toolbar li a.redactor_btn_unorderedlist:before 	{ content:"\f0ca"; }
+	.redactor_toolbar li a.redactor_btn_orderedlist:before 		{ content:"\f0cb"; }
+	.redactor_toolbar li a.redactor_btn_outdent:before 			{ content:"\f03b"; }
+	.redactor_toolbar li a.redactor_btn_indent:before 			{ content:"\f03c"; }
+
+	.redactor_toolbar li a.redactor_btn_image:before 			{ content:"\f03e"; }
+	.redactor_toolbar li a.redactor_btn_video:before 			{ content:"\f008"; }
+	.redactor_toolbar li a.redactor_btn_file:before 			{ content:"\f0f6"; }
+	.redactor_toolbar li a.redactor_btn_link:before 			{ content:"\f0c1"; }
+
+/*
+	body .redactor_toolbar li a.redactor_btn_deleted		 	{ background-position: -500px; }
+	body .redactor_toolbar li a.redactor_btn_table		 		{ background-position: -275px; }
+	body .redactor_toolbar li a.redactor_btn_fontcolor		 	{ background-position: -325px; }
+	body .redactor_toolbar li a.redactor_btn_backcolor		 	{ background-position: -350px; }
+	body .redactor_toolbar li a.redactor_btn_alignleft		  	{ background-position: -375px; }
+	body .redactor_toolbar li a.redactor_btn_aligncenter		{ background-position: -400px; }
+	body .redactor_toolbar li a.redactor_btn_alignright		  	{ background-position: -425px; }
+	body .redactor_toolbar li a.redactor_btn_justify		 	{ background-position: -450px; }
+	body .redactor_toolbar li a.redactor_btn_horizontalrule 	{ background-position: -475px; }	
+	body .redactor_toolbar li a.redactor_btn_fullscreen		 	{ background-position: -550px; }
+	body .redactor_toolbar li a.redactor_btn_normalscreen		{ background-position: -575px; }
+	body .redactor_toolbar li a.redactor_btn_clips		 		{ background-position: -600px; }
+	body .redactor_toolbar li a.redactor_btn_alignment	 		{ background-position: -625px; }	
+	body .redactor_toolbar li a.redactor_btn_fontfamily	 		{ background-position: -650px; }
+	body .redactor_toolbar li a.redactor_btn_fontsize	 		{ background-position: -675px; }
+	body .redactor_toolbar li a.redactor_btn_direction	 		{ background-position: -700px; }
+	body .redactor_toolbar li a.redactor_btn_lists		 		{ background-position: -725px; }
+	body .redactor_toolbar li a.redactor_btn_font		 		{ background-position: -750px; }
+	body .redactor_toolbar li a.redactor_btn_h1			 		{ background-position: -775px; }
+	body .redactor_toolbar li a.redactor_btn_h2			 		{ background-position: -800px; }
+	body .redactor_toolbar li a.redactor_btn_h3			 		{ background-position: -825px; }
+	body .redactor_toolbar li a.redactor_btn_quote		 		{ background-position: -850px; }
+	body .redactor_toolbar li a.redactor_btn_pre		 		{ background-position: -875px; }
+*/

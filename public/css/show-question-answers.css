@@ -1,0 +1,117 @@
+/*-------------Styling for Questions begin here ------------------*/
+
+/*******************************************
+CSS Clear
+*******************************************/
+
+
+/*******************************************
+Textstyles
+*******************************************/
+.question h2 {
+    padding-bottom: 0px;
+    font-size: 25px;
+}
+.question h3 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.question h4 {
+    padding-bottom: 10px;
+    border-bottom: 1px #2e9664 dotted;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+
+.question p {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    font-weight: 300;
+}
+
+.text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+/*******************************************
+Buttons
+*******************************************/
+
+#delete-btn {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+#edit-btn {
+    position: absolute;
+    right: 90px;
+    top: 15px;
+
+}
+
+.question-edit{
+}
+.question-done{
+    display: none;
+}
+#answer-btn {
+
+    margin: -20px;
+}
+
+
+/*******************************************
+TextAreaStyles and Forms
+*******************************************/
+
+.question {
+    position: relative;
+    background-color: #fff;
+    margin-top: 25px;
+    padding: 15px 30px;
+    padding-top: 5px;
+    border-bottom: 1px #e0e0e0 solid;
+}
+.answer {
+    margin-top: 15px;
+    padding: 15px 30px;
+    padding-top: 5px;
+    padding-right: 0;
+}
+.single-answer {
+    position: relative;
+    background-color: #fff;
+    margin-top: 15px;
+    padding: 15px 30px;
+    padding-top: 5px;
+    border-bottom: 1px #e0e0e0 solid;
+    margin-bottom: 10px;
+}
+.single-answer:hover {
+}
+.answer-form {
+    margin-top: 15px;
+    padding: 15px 30px;
+    padding-top: 5px;
+    padding-left: 50px;
+}
+.form {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px #e0e0e0 solid;
+}
+
+.tagContainer {
+    border-bottom: 1px #2e9664 dotted;
+    padding-bottom: 5px;
+}
+.tag {
+    margin-right: 3px;
+
+}
+.answer-form-controll{
+    margin-left: -20px;
+}

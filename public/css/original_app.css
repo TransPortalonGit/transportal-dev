@@ -1,0 +1,2323 @@
+html{
+	font-family:sans-serif;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%
+
+}
+
+body {
+	margin:0;
+	background-color: #fafafa;
+	padding-top: 50px;
+	
+}
+
+/*---------------------- additions ------------------------------*/
+.border-0{
+    border: 0px;
+}
+.border-radius-0{
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+.fa-rotate-45 { /* IE9+ and others */
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.margin-top-7{
+    margin-top: 7px;
+}
+.margin-top-15{
+    margin-top: 15px;
+}
+/*---------------------------------------------------------------*/
+
+.container{
+	width:960px;
+	height: auto;
+}
+
+.logo {
+	padding: 0;
+}
+
+.logo > img {
+	height:	40px;
+	margin-top: 5px;
+}
+
+/*---------------------- style setting for nav bar* ------------------------------*/ 
+
+
+.navbar-default .navbar-nav > li > a {
+	padding-right: 20px;
+    padding-left:20px;
+    color: #a5f5c5;  
+
+}
+
+.navbar-default .navbar-nav > li:hover > a, .navbar-nav > li:hover {
+	background-color: #1F7A4C;
+	color: #a5f5c5; 
+}
+
+.navbar-default input[type="text"], .navbar-default input[type="password"] {
+	color: #333;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #a5f5c5;
+	background-color: transparent;
+
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+color: #a5f5c5;
+background-color: #1F7A4C;
+
+} 
+
+
+
+.dropdown-menu>li>a {
+text-align: center;
+
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+
+.navbar-header {
+	width: 100%;
+}
+@media (min-width: 768px) {
+	.navbar-main-collapse {
+		padding: 0;
+		margin: 0;
+		width: 960px;
+	}
+	
+}
+@media (max-width: 768px) {
+
+	.navbar-fixed-top {
+		height: 51px;
+		
+	}
+	.search {
+		display: none !important;
+	}
+	.navbar-main-collapse {
+		background-color: #34a26a;
+		
+		float: right;
+		margin-top: 50px;
+		width: 150px;
+		overflow: hidden;  
+
+	}
+	.navi-dropdown {
+		display: block !important;
+	}
+	.main_tabs {
+		display: none !important;
+	}
+
+.navbar-default .navbar-toggle {
+border-color: #ddd;
+border-radius: 0;
+background: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+background-color: #34a26a;
+
+}
+.navbar-default .navbar-toggle:active {
+background-color: #34a26a;
+
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #a5f5c5;
+}
+
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+color: #a5f5c5;
+background-color: transparent;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+color: #a5f5c5;
+} 
+ul.dropdown-menu > li > a {
+color: #a5f5c5;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu {
+left:0;
+
+}
+}
+/*-----------style for small navigation tab----------------*/
+.navi-dropdown .btn-group button {
+	border: 1px solid #ddd;
+	background-color: #34a26a;
+	color: #ffffff;
+
+
+}
+.navi-dropdown .btn-group button:first-child {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	width: 150px;
+}
+.navi-dropdown .btn-group button:not(:first-child) {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+/*--------- seeting style for caret (up side down little triangle)----------------------*/
+
+.navbar-default .navbar-nav > .dropdown > a .caret {
+	border-top-color: #a5f5c5;
+	border-bottom-color: #a6f4c5;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret {
+	border-top-color: #ffffff;
+	border-bottom-color: #ffffff;
+}
+
+.navbar-default .navbar-nav >  .dropdown > a .caret .focus> {
+	border-top-color: #ffffff;
+	border-bottom-color: #a6f4c5;
+}
+
+
+
+/*-----------explore & create dropdown menu--------------*/
+ul.dropdown-menu > li > a {
+	
+	text-align: left;
+	color: #5B5C5B;
+	/*padding: 10px 20px;*/
+}
+
+ul.dropdown-menu > li > a:hover {
+
+	background-color: #ffffff;
+	color: #34a26a;
+}
+ul.dropdown-menu {
+	/*height:137px;
+	width:150px;
+	margin: 0;*/
+	border-radius: 0;
+	
+}
+ul.dropdown-menu > li {
+	/*padding: 0px;*/	
+}
+
+
+.login{
+	float: right !important;
+}
+
+/* search controler*/ 
+.search{
+	float:left;
+	border-radius: 0;
+}
+
+/*.form-control{
+    float: left;
+	margin-left:0px;
+	border-radius: 0;
+	font-size: 14px;
+	color: #8f9caa;
+	width:200px;
+	height: 30px;
+	border: 0;
+}*/
+
+.btn-search{
+	font-size: 12px;
+	width:auto;
+	height: 30px;
+	color: #8f9caa;
+	background-color: #eaeaea;
+	border-radius: 0;
+	border-color:transparent;
+
+}
+
+.profile_header{
+	width: 960px;
+	height: 150px;
+	display: inline;
+
+}
+.brief_profile {
+	float:left;	
+	border-radius: 0;
+	margin-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-right: 15px;
+	
+}
+.left-caret {
+
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #ECECEC;
+    display: inline-block;
+    height: 0px;
+  
+    vertical-align: top;
+    width: 0px;
+    
+}
+
+/* Profile picture*/
+.img-thumbnail {
+border-radius: 0;
+border:none;
+}
+
+/* "I like creation, I like turtle!*/
+.bio{
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	width: 175px;
+	
+	margin-left: 5px;
+	
+}
+.basic_info {
+	
+	
+	width: 500px;
+	float: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/*margin-left: 50px;*/
+
+}
+
+a{
+	background:transparent;
+	color: #26965f;
+}
+a:hover, a:focus {
+	outline:thin dotted
+	text-decoration: none;
+	color: #34a26a;
+}
+
+
+
+
+
+/* NAVIGATION STYLES */
+.navbar.navbar-default.navbar-fixed-top {
+	background-color: #34a26a;
+	
+
+}
+
+.nav.nav-pills > li > a {
+	color: white;
+	background: transparent;
+	background-color: #4b4b4b;
+	border-radius: 0;
+	border: 0;
+
+
+}
+.main_tabs > ul {
+
+}
+.nav.nav-pills > li {
+
+	   
+	text-align: center;
+	border: 1px solid #e3e5e8;
+	padding: 0;
+
+}
+.nav.nav-pills > li.active > a {
+	background: #34a26a;
+
+
+}
+
+.nav.nav-pills > li > a:hover {
+	background: #34a26a;
+
+
+} 
+
+
+.shield {
+	position: relative;
+}
+
+
+hr{
+	height: 1px;
+	margin-top:5px;
+	margin-bottom:15px;
+	background-color: #cccccc;
+	border: 0;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+}
+
+h1{
+	margin:.67em 0;
+	font-size:2em
+}
+
+h4, h5, h6 {
+margin-top: 20px;
+margin-bottom: 5px;
+}
+.modal {
+	z-index: 9999;	
+}
+
+
+.content_container {
+	min-height: 500px;
+	width: 960px; /* width of the main content*/
+	background-color: #fafafa;
+}
+
+
+footer {
+	color:#ccc;
+	text-align: center;
+	padding: 20px;
+}
+
+
+.icon-big:before{font-size:1.3333333333333em;line-height:0.4em;}
+.icon-green{color:#0a0;}
+.icon-red{color:#da4f49;}
+.icon-orange{color:#f89406;}
+
+
+
+/*
+.carousel-caption {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 15px;
+	background: rgba(255, 255, 255, 0.96);
+}
+
+.carousel-caption h4,
+.carousel-caption p {
+	color: #999;
+	font-weight: 200;
+}
+*/
+
+
+
+
+#sectionbar li.active a {
+	background: #34a26a;
+	color: #fff;
+}
+
+#sectionbar .icon-chevron-right {
+	float: right;
+	margin-top: 4px;
+	margin-right: -6px;
+}
+
+
+
+
+#tutorial img,
+#project img
+{
+	border: solid 1px #ccc;
+}
+
+
+p.author { 
+	color: #2388ca;
+}
+
+#tutorial h3 {
+	font-size: 20px;
+	line-height: 25px;
+
+}
+
+.cover-item {
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+	margin-bottom: 20px;
+}
+
+
+.cover-item h2 {
+	font-weight: 200;
+	margin-bottom: 5px;
+	font-size: 31.5px;
+	line-height: 40px;
+}
+
+.cover-item h2 a {
+	text-decoration: none;
+}
+
+.cover-item .cover-item-content {
+	padding: 10px;
+}
+
+.cover-item .cover-item-author {
+	padding: 10px;
+	background: #f0f0f0;
+}
+
+.cover-item:hover {
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 1);
+}
+.cover-item:hover h2 a {
+	color: #005580;
+}
+
+
+
+
+
+.navbar-default,
+.navbar-default:after {
+	background: #34a26a;
+}
+
+/*this is for footer styling*/
+.footer_wrapper {
+	margin-top: 40px;
+	width: 100%;
+	background-color: #ffffff;
+
+}
+.footer_box {
+	height: auto;
+	
+}
+
+.footer_box > div {
+	display: inline;
+	float: left;
+	width: 230px;
+	padding: 20px;
+	text-align: left;
+
+}
+.footer_box > div p {
+	font-size: 12px;
+	color: #7E7E7E;
+
+}
+.footer_box > div  a {
+	text-decoration: none;
+	color: #7E7E7E;
+	
+}
+
+.footer_box > div  p:hover {
+	color: #2C2C2C;
+}
+.copyright div a {
+
+	width: 20px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+/*footer styling ends here*/
+
+/*
+.nav.nav-pills > li > a {
+	color: white;
+	background: transparent;
+	border-radius: 0;
+
+}
+
+.nav.nav-pills > li.active > a {
+	background: #1abc9c;
+
+}
+
+.nav.nav-pills > li > a:hover {
+	background: #1abc9c;
+
+} 
+
+*/
+
+.subtitle {
+	
+	margin-top: 30px;
+	margin-bottom: 2px;
+	height: auto;
+	width: 100%;
+	display: inline;
+	
+}
+
+
+}
+* {
+	font-family: "Verdana",Cursive;
+}
+
+.commentPic > a > img {
+	height: 50px;
+	width: 50px;
+	border-radius: 0;
+	margin:10px;
+
+}
+.commentName {
+	margin-left: 5px;
+	line-height: 10px;
+	font-size: 12px;
+}
+.timeStampe {
+	margin-left: 60px;
+}
+.timeStampe > div> a {
+	color: #bec3c7;
+}
+.pull-right {
+  float: right;
+  margin-right: 0px;
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+}
+.commentTime{
+	color: #bec3c7;
+}
+
+
+/*------------------- This is for Project Page----------------------*/
+
+ .all_projects > div  a img{
+	
+	
+	border-radius: 0;
+	margin-bottom: 5px;
+	padding: 5px;
+	width: 200px;
+	height: 150px;
+	border: 0;
+
+}
+
+.all_projects .edit-project {
+	
+display: inline;
+width: auto;
+float: left;
+margin-bottom: 5px;
+
+	
+	
+
+
+
+}
+.all_projects div.caption_wrapper {
+	width:100%;
+	margin-top: 0;
+
+
+	padding-left: 5px;
+	padding-right: 5px; 
+	height: 30px;
+
+
+
+
+}
+.all_projects > div > a:hover {
+	
+
+	border-radius: 0;
+}
+.caption {
+	text-align: right;
+	margin-top: 0;
+	float: right;
+
+
+}
+.caption > li {
+	
+	width: auto;
+	margin: 0 0 0 5px;
+	margin-top: 0;
+	margin-bottom: 5px;
+	display: inline;
+	font-size: 11px;
+	line-height: 1;
+	color: #aaa;
+}
+.caption > li > a {
+	text-decoration: none;
+	color: #aaa;
+}
+.caption > li > a:hover {
+	text-decoration: none;
+	color: #3399ff;
+
+}
+.all_projects > div.thumbnail_shot {
+	
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	background-color: #ffffff;
+	padding-right: 2px;
+	padding-left: 2px;
+	border: 1px solid #ddd;
+	width: auto;
+	height: 190px;
+
+
+
+
+
+}
+.more_tag {
+	display: inline-block;
+}
+.more_tag.pull-right > a:hover {
+	text-decoration: none;
+}
+
+.add_project_btn{
+	background-color: #34a26a;
+	color: #ffffff;
+	padding: 4px 5px;
+	margin-bottom: 2px;
+}
+.pagi{
+float: right;
+}
+   
+.pagination>li>a {
+	border-radius: 1px;
+}
+
+/*------------------- This is styling for Inventory Page----------------------*/
+
+.search_box {
+	float: right;
+	padding-top: 10px;
+}
+.search_box > form.navbar-form {
+	padding:0;
+		
+}
+
+.item_table {
+	padding-top: 10px;
+}
+
+.item_table > .table > thead {
+	
+	font-size: 14px;
+	color: #ffffff;
+	background-color:  #34a26a;
+}
+.item_table > .table > tbody {
+	
+	font-size: 12px;
+	background-color:  #ffffff;
+}
+.item_table > .table > thead > tr > th, .item_table > .table > tbody > tr > td  {
+	text-align: center;
+}
+td.overdued {
+	
+	background-color: #fb5641;
+}
+td.caution {
+
+	background-color: #fad16b;
+}
+
+/*Styling for Create Project Page */
+.create_project > .create_title > p {
+	background-color:  #34a26a;
+	color: #ffffff;
+	height: 30px;
+	padding-left: 5px;
+	margin: 0;
+	display: table-cell;
+	vertical-align: middle;
+	width: 960px;
+
+
+
+}
+.upload_wrapper ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;	
+	padding-top: 20px;
+}
+.upload_wrapper ul li.project_description {
+	margin-top: 60px;
+	
+	
+	
+}
+ul.progress_bar {
+	padding-right: 20px;
+	padding-left: 20px;
+	list-style: none;
+	padding-top: 20px;
+}
+ul.progress_bar > div {
+	display: inline-block;	
+	width: 33%;
+	text-align: center;
+	
+}
+
+li.circle {
+	width:30px;
+    height:30px;
+    color: #ffffff;
+    border-radius:15px;
+    line-height: 30px;
+    text-align:center;
+    background: #34a26a;
+    display: inline-block;	
+}
+
+
+}
+
+.upload_area {
+	display: inline-block;
+	width: 100%;
+}
+.upload_files > table {
+	float: left;
+	padding-top: 30px;
+	display: inline;
+	width: inherit;
+	
+}
+.upload_files > table  td {
+	text-align: left;	
+	width: 250px;
+}
+
+
+.choose_file >   .btn.btn-default {
+	color: #ffffff;
+	text-align: center;
+	background-color: #34a26a;
+	padding: 3px;
+	width: 180px;
+	float: left;
+}
+.upload_photos > table { 
+	float: left;
+	padding-top: 40px;
+	display: inline;
+	width: inherit;
+}
+
+.upload_photos > table  td {
+	text-align: left;	
+	width: 250px;
+}
+.gallery_thumbnail > ul {
+	
+	padding: 0;
+	margin: 0;
+	
+}
+
+.gallery_thumbnail > ul li {
+	display: inline;
+	list-style: none;
+
+}
+.gallery_thumbnail > ul li img {
+	border: 3px solid #ccc;	
+	width: 100px;
+	height: auto;
+	
+
+}
+ .gallery_thumbnail {
+	float: left;
+	position: relative;	
+	width: auto;
+	padding-top: 20px;
+
+}
+.project_details {
+	padding-top: 30px;
+	display: inline-block;	
+	width: 100%;
+
+}
+.project_details .form-control {
+	width: 100% !important;
+	border: 1px solid #34a26a;	
+}
+
+.project_type > ul li {
+	float: left;
+	list-style: none;
+	padding: 0;
+	width: 30%;	
+	padding-top: 20px;
+	display: inline-block;
+	
+}
+
+.project_type > ul {
+	height: auto;
+	width: 100%;
+	padding: 0;
+	
+	padding-top: 20px;
+
+}
+.project_license {
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+	
+	float: right;
+}
+.project_type  .project_tag {
+	float: right;
+}
+
+.help-block {
+
+	padding-top:0;
+	font-size: 14px;
+
+}
+.project_action > .btn-group .btn {
+	float: right;
+	border-radius: 0;
+	width: 100px;
+	color: #ffffff;
+	margin: 5px;
+}
+.project_action > .btn-group {
+	float: right;
+	padding-top: 20px;
+	width: 100%;
+}
+	
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    
+    opacity: 0;
+    cursor: inherit;
+    display: block;
+}
+
+
+/*Styling for Create Project Page ends here */
+
+/*Styling for individual Project Page starts here */
+.each_project > ul {
+	list-style: none;
+	display: inline;
+}
+.each_project > ul .brief_profile a img {
+	width: 50px;
+	height: auto;
+}
+
+.each_project > ul li {
+	padding: 0;
+	margin: 0;
+	width: auto;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.project_name > span p {
+	font-size: 10px;
+
+}
+.display_wrapper > ul {
+	list-style: none;
+	display: inline;
+	padding: 10px;
+	
+}
+.project_stats {
+	float: right;
+	position: relative;
+}
+.project_stats > ul {
+	list-style: none;
+}
+.project_tag span {
+	background-color: #34a26a;
+	padding-left:  5px;
+	padding-right:  5px;
+	color: #ffffff;
+	margin-right: 5px;
+	text-align: center;
+
+}
+.stats > ul {
+	list-style: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: auto;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	background-color: #ffffff;
+}
+
+.stats table td {
+	width: 100px;
+
+}
+.stats  .quant {
+	text-align: right;
+	padding-right: 10px;
+}
+.stats  .name {
+	text-align: left;
+}
+.stats hr {
+	margin-right: 10px;
+	margin-top: 10px;
+
+}
+.stats ul li table tr td a {
+	display:block;
+    height:100%;
+    width:100%;
+    text-decoration: none;
+    border: 0;
+    color: #ccc;
+}
+.stats ul li table tr td a:hover {
+	color: #34a26a;
+}
+
+
+.first_col > .highlight_photo a > img {
+	width: 620px;
+	height: auto;
+	border: 10px solid #ffffff;
+}
+.small_thumbnail > ul li img {
+	display: inline;
+	width: 90px;
+	height: auto;
+}
+
+.small_thumbnail > ul li {
+	list-style: none;
+	display: inline;
+	padding: 5px;
+	float: left;
+}
+.project_download .btn.btn-primary {
+	border-radius: 0;
+	background-color:#34a26a; 
+	border: 0;
+	width: 100%;
+}
+
+.project_download {
+	padding-top: 10px;
+}
+
+/*Styling for individual Project Page ends here */
+
+/*---------- Styling for Viewers' tutorial page starts here ----------------*/
+#tutorial-sorter {
+	
+	margin-top: 30px;
+	width: 100%;
+		
+}
+
+	
+
+
+.tutorial-showcase .showcase-wrapper ul {
+	width: 900px;
+	display: inline;
+	height: auto;
+}
+
+li#tutorial-item {
+
+	display: inline;
+	width: 400px;
+	height: auto;
+	margin: 5px;
+	padding: 0;
+	float: left;
+	margin-top: 20px;
+}
+
+li#tutorial-item .caption {
+	background-color: #525252;
+	  margin-bottom: 5px;                      
+	  padding: 5px 10px 5px 10px;
+	  width: auto;	  
+	  vertical-align: bottom;
+	  margin-top: 150px;
+	  position: absolute;
+	}
+#tutorial-byline {
+	font-size: 12px;
+}
+
+.page_number > ul.pagination > li:last-child > a {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.page_number > ul.pagination > li:first-child > a {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+#tutorial-sorter  button.btn.btn-default.active {
+	background-color:  #34a26a;
+	color: #ffffff;
+	background-image:none;
+}
+
+#tutorial-sorter  button.btn.btn-default:hover {
+	background-color:  #34a26a;
+	color: #ffffff;
+	background-image:none;
+}
+
+#tutorial-sorter  button.btn.btn-default {
+	border-radius: 0;
+	border: 1px solid #ddd;
+}
+
+/*---------- Styling for Viewers' tutorial page ends here ----------------*/
+
+/*---------- Styling for Viewers' popular pages  ----------------*/
+#browse-header {
+	width: 100%;
+	height: auto;
+
+	
+}
+#project-sorter select.form-control {
+	width: 200px;
+	border-radius: 0;
+	display: inline;
+	float: left;
+	height: 33px;
+}
+
+
+.all_projects #img_ribbon {
+	position: absolute;
+	width: 190px;
+	margin: 5px;
+	padding: 5px;
+	bottom: 32px;
+	color: #ffffff;
+	border-radius: 0;	
+	text-align: center;
+
+	background: rgb(54, 25, 25); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(54, 25, 25, .5);
+    font-size: 11px;
+}
+
+
+.caption {
+	text-align: right;
+	margin-top: 0;
+}
+.caption > li {
+	
+	width: auto;
+	margin: 0 0 0 5px;
+	margin-top: 0;
+	margin-bottom: 5px;
+	display: inline;
+	font-size: 11px;
+	line-height: 1;
+	color: #aaa;
+}
+.caption > li  a, .edit-project a {
+	text-decoration: none;
+	color: #aaa;
+	font-size: 11px;
+
+}
+.caption > li > a:hover, .edit-project a:hover {
+	text-decoration: none;
+	color: #34a26a;
+
+}
+.all_projects > div.thumbnail_shot {
+	
+	margin: 0 auto;
+	margin-top: 5px;
+	padding-top: 5px;
+	position: relative;
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+
+}
+
+.all_projects > div > a.thumbnail {
+	
+
+	border-radius: 0;
+	margin-bottom: 5px;
+
+	position: relative;
+	
+}
+/*---------- Styling for Viewers' popular pages ends here ----------------*/
+
+/*Styling for Edit profile Page starts here */
+.modal-content {
+	padding: 10px;
+	width: 700px;
+}
+.left-wrapper {
+	display: inline-block;
+	width: 20%;
+	float: left;
+	padding-top: 20px;
+}
+.right-wrapper {
+	display: inline-block;
+	width: 75%;
+	float: right;
+	padding-top: 20px;
+}
+.left-wrapper .profile-pic a img {
+	width: 170px;
+	height: 170px;
+}
+.left-wrapper .profile-pic h3 {
+	margin-top: 0;
+	margin-bottom: 5px;
+	padding: 0;
+}
+.left-wrapper div.bio {
+	width: 170px;
+	margin: 0;	
+	padding: 0;
+	padding-left: 5px;
+	background-color: #ddd;
+	margin-top: 5px;
+}
+
+.left-wrapper #change-label {
+	width: 170px;	
+	margin-top: 5px;	
+	padding-left: 5px;
+	background-color: #34a26a;
+	display: inline-block;
+	
+}
+.left-wrapper #change-label a {
+	color: #fff;
+
+}
+
+
+.right-wrapper #user-description {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.right-wrapper .section-label {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	background-color: #34a26a;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+
+#public-projects .project-wrapper {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	overflow: auto;
+
+}
+.sub-label {
+	display: inline;
+	
+}
+.sub-label > div {
+	width: auto;
+	background-color: #ddd;
+	padding: 3px;
+}
+.project-showcase-container .gallery  {
+
+
+	display: inline;	
+}
+.project-showcase-container .row {
+	padding-left: 5%;
+	padding-right: 5%;	
+	width: 698px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 20px;
+
+}
+div.project-showcase-container {
+	display: inline;
+	
+	width: 100%;
+
+}
+.project-showcase-container .thumbnail_shot {	
+
+	display: inline;
+	width: 30%;	
+
+}
+
+.thumbnail_shot .checkbox {
+	position: absolute;
+	margin-left: 180px;
+	margin-top: 0;
+}
+.project-showcase-container .thumbnail_shot a {
+	display: inline-block;
+}
+
+.project-showcase-container .thumbnail_shot a>div {
+	width: 200px !important;
+	padding: 3px;
+	margin: 0;
+	display: inline;
+}
+.project-showcase-container .thumbnail_shot a > div > img {
+	width: 200px;
+	margin: 0;
+	display: inline;
+	padding-bottom: 5px;
+}
+#user-description .form-control {
+	width: 100% !important;
+	border: 1px solid #ddd;
+}
+.stats-group {
+	width: 100%;
+	display: inline;	
+	padding-right: 10%;
+}
+.stats-group .basic_info_group  {
+	width: 20%;
+	text-align: center;
+	padding: 5px;
+	background-color: #ECECEC;
+	display: inline-block;	
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.right-wrapper #basic_info {
+	margin-bottom: 10px;
+}
+
+#action-btn {
+	margin-bottom: 10px;
+	margin-top: 20px;
+	height: 30px;
+	display: inline;
+	padding-left: 5%;
+	margin-left: 0;
+}
+#action-btn .btn.btn-default {
+	width: auto;
+	background-color: #3C3A3A;	
+	color: #ffffff;	
+	border-radius: 0;
+
+}
+
+.project-showcase-container div.thumbnail_shot div#img_ribbon, .profile-pic div#img_ribbon{
+	position: absolute;
+	width: inherit;
+	margin-left: 3px;	
+	font-size: 14px;
+	background-color: #EEE6E6;
+	color: #141212;
+	margin-top:110px;
+	text-align: center;
+	padding: 5px;
+	vertical-align: middle;
+	display: none;
+
+}
+
+.project-showcase-container div.thumbnail_shot:hover div#img_ribbon, div.profile-pic:hover div#img_ribbon {
+	display: block;
+	
+}
+
+
+/*Styling for Edit profile Page ends here */
+
+/*Styling for Password change page starts here */
+
+.general-setting ul li{
+	display: inline;
+	width: inherit;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	float: left;
+	cursor: pointer;	
+}
+.general-setting ul li:hover {
+	background-color: #E4E4E4;
+}
+.general-setting div#item-label  {
+	display: inline;
+	width: 200px !important;
+	height: 30px;	
+	margin-right: 20px;
+	text-align: left;
+
+}
+
+.general-setting form {
+	float: left;
+	width: 100%;
+	padding: 10px; 
+	display: none; 
+	background-color: #FFFFFF; 
+	border: 1px solid #ccc; 
+	padding: 10px;
+}
+.general-setting #item-data {
+	display: inline;
+	width: 650px;
+	text-align: left;
+	
+	vertical-align: middle;
+	position: absolute;
+}
+.setting-wrapper .form-control {
+	border-radius: 0;
+	width: 100% !important;
+	border: 1px solid #ccc;
+	padding-right: 20px;
+	margin-bottom: 10px;
+	
+}
+
+.setting-wrapper {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+/*Styling for Password change page ends here */
+
+
+/*Styling for Create Project page starts here */
+
+
+.create_title > p {
+	background-color:  #34a26a;
+	color: #ffffff;
+	height: 30px;
+	padding-left: 5px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 960px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.image-container {
+		text-align: center;
+		margin-right: 7px;
+		width: 165px;
+		overflow: hidden;
+
+}
+	
+.image-container .thumbnail, .photo-wrapper .thumbnail {
+		width: 155px;
+		height: 155px;
+		background: #efefef;
+		border-radius: 0;
+}
+	
+.image-container .btn-file {
+	width: auto;
+	background-color: #34a26a;
+	color: #ffffff;
+	border-radius: 0;
+	margin-right: 5px;
+
+}
+
+.image-container .btn-danger {
+	
+	width: auto;
+	background-color: #F05A5A;
+	color: #ffffff;
+	border-radius: 0;
+
+}
+
+#add-image-btn {
+	cursor: pointer;
+}
+
+#add-image-btn .thumbnail {
+	width: 155px;
+	height: 155px;
+	background: #efefef;
+	text-align: center;
+}
+
+/* testing (stefanos) */
+#fileupload-new .thumbnail {
+	width: 155px;
+	height: 155px;
+	background: #efefef;
+	text-align: center;
+}
+
+#add-image-btn .thumbnail i {
+	 font-size: 50px;
+	 line-height: 155px;
+	 color: #ccc;
+}
+
+/* start - icon on fileupload thumbnail (stefanos) */
+#fileupload .fileupload-new, .fileupload-new .thumbnail i {
+	 font-size: 50px;
+	 line-height: 155px;
+	 color: #ccc;
+}
+/* end */
+
+#add-file-btn {
+	cursor: pointer;
+}
+
+#add-file-btn .thumbnail {
+	width: 155px;
+	height: 155px;
+	background: #efefef;
+	text-align: center;
+}
+
+#add-file-btn .thumbnail i {
+	 font-size: 50px;
+	 line-height: 155px;
+	 color: #ccc;
+}
+
+.span11 {
+	width: 100%;
+	display: inline-block;
+}
+.span11 .photo-wrapper {
+
+	width: 100%;
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+.container-wrapper  input.btn.btn-success, .container-wrapper input.btn.btn-warning {
+	float: right;
+	border-radius: 0;
+	margin-top: 50px;
+	margin-right: 10px;
+	width: auto;
+
+}
+.span11 .form-control {
+	width: 300px !important;
+	border: 1px solid #34a26a;
+	height: auto;
+
+}
+.container-wrapper {
+	padding-top: 20px;
+}
+/*Styling for Create Project page ends here */
+
+/*Styling for flyover alert starts here */
+.flyover {
+   left: 150%;
+   overflow: hidden;
+   position: fixed;
+   width: 50%;
+   opacity: 0.9;
+   z-index: 1050;
+   transition: left 0.6s ease-out 0s;
+}
+
+.flyover-bottom {
+   bottom: 10px;
+}
+
+/*Styling for flyover alert ends here */
+/*Styling help page starts here */
+#faq p {
+	width: 100%;
+	background-color: #34a26a;
+	color: #ffffff;
+	padding: 5px;
+}
+
+#question-list {
+	width: 100%;
+	display: inline;
+}
+#general-question ol li, #technical-question ol li {
+	
+
+}
+#general-question , #technical-question  {
+	width: 400px;
+	display: inline-block;
+}
+#technical-question {
+	float: right;
+}
+#no-answer p{
+	width: 100%;
+	background-color: #373838;
+	color: #ffffff;
+	text-align: center;
+	padding: 5px;
+}
+
+#no-answer a:hover {
+	text-decoration: none;
+}
+
+/*Styling help page ends here */
+/*Styling query form page starts here */
+#query-form {
+	width: 100%;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #34a26a;
+	background-color: #ffffff;
+}
+
+#query-form .form-control {
+	width: 100% !important;
+	border: 1px solid #ccc;
+}
+#answer-wrapper li{
+	position: relative;
+}
+
+
+/*Styling query form page ends here */
+
+/*Styling Usage data page starts here */
+.card-wrapper {
+	width: 960px;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	
+}
+ .left-cards  {
+	display: inline-block;
+	width: 49%;	
+	float: left;
+
+}
+
+.right-cards  {
+	display: inline-block;
+	width: 49%;
+	float: right;
+
+
+}
+.card-wrapper #usage-info {
+	width: 100%;
+	height: auto;	
+	background-color: #ffffff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-: 10px;
+}
+
+#usage-info p {
+	padding: 5px;  
+	color: #ffffff;
+	font-size: 12px;
+
+}
+
+/*Styling Usage data page ends here */
+
+/*---------- Styling for Viewers' lab tool page starts here ----------------*/
+.machine-list {
+	clear: both;
+	width: 100%;
+	
+	
+	display: inline-block;
+}
+div.machine-list > #description {
+	display: inline-block;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+	
+}
+
+div.machine-list  div#description:after {
+	content: <hr>;
+
+}
+
+
+
+.machine-list  .machine-pic {
+	display: inline;
+	float: left;
+	width: 30%;
+}
+.machine-list  .machine-info {
+	display: inline;
+	float: right;
+	width: 60%;
+}
+
+
+
+
+
+/*---------- Styling for Viewers' lab tool page ends here ----------------*/
+
+/*---------- Styling for appointment page starts here ----------------*/
+
+.appointment-wrapper {
+	width: 200px;
+	display: inline-block;
+	margin-top: 20px;
+}
+.appointment-wrapper .caret {
+	
+	border-top: 6px solid #000; 
+	border-right: 6px solid transparent;
+	border-bottom: 0 dotted; 
+	border-left: 6px solid transparent; 
+	border-top-color: #ffffff;
+	float: right;
+	vertical-align: middle;
+	
+	margin-top: 5px;
+}
+.appointment-wrapper .next-appointment p {
+	text-align: center;
+	background-color: #34a26a;
+	color: #ffffff;
+	width: 200px;
+	padding: 5px;
+}
+.appointment-wrapper .next-appointment {
+	width: 200px;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+.appointment-wrapper .next-appointment ul  {
+	width: 200px;
+	padding-left: 5px;
+	text-align: left;
+	
+	padding-top: 0;
+}
+.appointment-wrapper .next-appointment ul li {
+	padding: 5px 5px 5px 5px;
+} 
+.next-appointment span#remove-appointment a {
+
+	background-color: red;
+	color: #ffffff;
+	display: none;
+	font-size: 10px;
+	float: right;
+
+
+}
+.next-appointment ul li:hover #remove-appointment a {
+	
+	display: block;	
+}
+
+.add-appointment p {
+	text-align: center;
+	background-color: #34a26a;
+	color: #ffffff;
+	width: 200px;
+	padding: 5px;
+}
+.add-appointment #appnt, .add-appointment #resv, #resv1 {
+	border-radius: 0;
+	width: 200px;
+	font-size: 12px;
+	margin-top: 5px;
+	background-color: #34a26a;
+	border-color: transparent;
+	padding: 5px;
+}
+
+.calendar-wrapper {
+	width: 700px;
+	float: right;
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #ffffff;
+	height: 570px;
+	overflow: hidden;
+	
+}
+.calendar-wrapper h3 {
+	background-color: #34a26a;
+	text-align: center;
+	color: #ffffff;
+	padding: 5px;
+	margin-top: 15px;
+}
+/*---------- Styling for appointment page ends here ----------------*/
+
+    /*---------- This is styling for Viewers' home pages ----------------*/
+.wrapper {
+  display: inline-block;
+}
+#content-body {
+  display: inline;
+  width: 950px;
+  padding-top: 10px;
+  margin-top: 10px;
+
+}
+#content-body .left-box-contents {
+  display: inline-block;
+  width:30%;
+  float: left;
+  
+}
+#content-body .left-box-label {
+  
+  background-color: #34a26a;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+.left-box-label > p {
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+.left-box-item {
+  width: 80%;
+  background-color: #ffffff;
+  overflow: hidden;
+  float: left;
+  margin-top: 10px;
+
+}
+
+#site-news ul li {
+  padding: 0;
+  margin: 0;
+
+}
+#feature-project {
+  margin-top: 10px;
+  width: 65%;
+  float: right;
+  background-color: #ffffff;
+}
+ul.feature-list li {
+  display: inline-block;
+}
+
+#quickguide {
+  clear: both;
+  width: 100%;
+  height: 250px;
+  
+}
+
+.guide-wrapper {
+
+  padding: 0;
+  margin: 0;
+  width: 960px;
+  padding-top: 20px;
+
+
+}
+.guide-wrapper > .btn.btn-default {
+
+
+  width:30% !important;
+  font-size: 20px;
+  background-color: #ccc;
+  color: #ffffff;
+  opacity: 0.75;
+  display: inline;
+
+  
+}
+
+.guide-wrapper > .btn.btn-default:hover {
+
+  opacity: 1;
+
+  
+}
+
+#content-body #right-col {
+  width: 670px;
+  float: right;
+  margin-top: 10px;
+}
+
+#right-col > .big-quick-panel { 
+  display: inline;
+  padding: 0;
+  margin: 0;
+  width: 650px;
+  height: auto;
+
+}
+
+.big-quick-panel .panel-item a {
+  display: inline-block; 
+ color: #2F3130;
+  opacity: .8;  /*color: #ffffff;*/
+  text-align: center;
+  padding: 5px; 
+ 
+
+
+  
+  
+}
+.big-quick-panel .panel-item {
+  vertical-align: top;
+  display: inline-block;
+  
+  width: 30%;
+ border: 2px solid #34a26a;
+ background-color:  #ffffff;
+ zoom: 1;
+  
+
+}
+/*slider next/prev button*/
+a.carousel-control {
+  font-size: 90px;
+  color: #ffffff;
+ padding-top: 60px;
+ margin: 0px 10px 0px 10px;
+  
+}
+#header-carousel {
+  margin-top: 20px;
+}
+
+.carousel-control.left,.carousel-control.right {
+width: 45px;
+	background-image:none;
+}
+.carousel-inner div.item {
+  width: 960px;
+  height: 280px;
+  overflow: hidden;
+}
+
+/* ends of slider next/prev button*/
+
+.big-quick-panel .panel-item div:first-child {
+  font-size: 18px;
+
+}
+.big-quick-panel > #container {
+  text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    width: 100%;
+
+}
+
+#container .stretch {
+
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+
+}
+
+
+div.network-list  {
+  display: inline;
+  
+  width: 650px;
+  
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+div.network-list  a{
+  font-size: 20px;
+  background-color: #bbb; 
+  text-align: center;
+  color: #ffffff;
+  display: inline;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+div.network-list a:hover {
+
+  background-color: #aaa;
+  
+}
+div.network-list div {
+  display: inline;
+  float: right;
+  width: 30%;
+}
+
+#right-col, #left-col {
+
+margin-top: 20px;
+
+}
+/*---------- Styling for Viewers' home pages ends here ----------------*/
+
+
+/*-----------Styling for individual Project Page starts here ---------------*/
+#profile_head {
+	width: 500px;
+	height: auto;
+	display: inline-block;
+	padding: 0;
+
+}
+#profile_head > span > p {
+	color: #bbb;
+}
+.brief_profile > a > img {
+	width: 70px;
+	height: 70px;
+}
+#img_gallery .highlight_photo > a > img {
+	border: 5px solid #ffffff;	
+	width: 650px !important;
+	height: auto;
+	margin-bottom: 20px;
+}
+.small_thumbnail  {
+	list-style: none;
+		
+	width: 650px !important;
+	padding: 0;
+	margin: 0;
+
+	
+}
+.small_thumbnail  li {
+		
+	display: inline;
+	margin: 0;
+	padding-right: 5px;
+	
+	
+}
+.small_thumbnail li img {
+	width: 100px;
+	
+}
+#comment_section {
+	padding-top: 50px;
+	width: 650px;
+}
+#comment_section > table .commentPic {
+	padding-top: 10px;
+}
+
+.body_wrapper {
+	width: 960px;
+	display: inline;
+	
+}
+#first_col {
+	width: 650px;
+	height: auto;
+	display: inline-block;
+}
+
+#second_col {
+	width: 250px;
+	height: auto;
+	display: inline-block;
+	position: absolute;
+	padding-left: 30px;
+}
+.project_tag span {
+	padding-top: 10px;
+	padding: 3px;
+	text-align: center;
+	color: #fff;
+	margin: 2px;
+	background-color: #eaeaea;
+	
+}
+.project_tag {
+	width: 100%;
+	height: auto;
+	/*background-color: #ffffff;*/
+}
+.stats {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.stats ul {
+	list-style: none;	
+	border: 1px solid #ccc;
+	padding: 0;
+	margin: 0;
+	background-color: #ffffff;
+}
+.stats ul li {
+	padding: 8px;
+	width: 100%;
+	height: auto;
+}
+.stats ul li table tr td a {
+	display:block;
+    height:100%;
+    width:100%;
+    text-decoration: none;
+    border: 0;
+    color: #797777;
+}
+.stats ul li table tr td a:hover {
+	color: #34a26a;
+}
+.stats table td {
+	width: 100px;
+
+}
+.stats  .quant {
+	text-align: right;
+	padding-right: 10px;
+}
+.stats  .name {
+	text-align: left;
+}
+.stats hr {
+	margin-right: 10px;
+	
+	margin-left: 10px;
+}
+.project_download {
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+
+#file_name >  p {
+	display: inline;
+	height: 30px;
+	width: 80%;
+	border: 1px solid #ccc;
+	float: left;
+	padding-top: 5px;
+	margin: 0;
+	text-align: center;
+	background-color: #ffffff;
+	margin-bottom: 3px;
+	
+}
+#file_name > a .fa.fa-download {
+
+	width: 20%;
+	height: 30px;
+	display: inline;
+	background-color: #34a26a;
+	color: #ffffff;
+	float: right;
+	text-align: center;
+	padding-top: 8px;	
+}
+#download_area {
+	display: inline;
+	
+	width: 100%;
+	height: 80px;
+	float: right;
+	
+	padding: 0;
+	margin: 0;
+	padding-top: 20px;
+
+}
+
+#license_type {
+	width: auto;
+	display: inline;
+	float: left;
+	
+	padding: 0;
+	margin: 0;
+}
+#license_type a img {
+	width: 30px;
+	height: 30px;
+	opacity: 0.5;
+}
+#download_all > .btn.btn-primary {
+	background-color: #34a26a;
+	border: 0;
+	display: inline;
+	float: right;
+}
+
+#project_more {
+	display: inline-block;
+	width: 100%;
+}
+#more_thumbnail > ul {
+	list-style: none;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+#more_thumbnail > ul li {
+	padding: 2px;
+	display: inline;
+	width: 100%;
+	
+
+}
+#more_thumbnail > ul li a img {
+	display: inline;
+	width: 30%;
+	padding: 2px;
+	height: 50px;
+}
+
+
+.carousel-thumb a img {
+	width: 135px;
+	height: 100px;
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+.carousel-wrapper .carousel-inner, #first_col div.item {
+	width: 650px;
+	height: 120px;
+	padding: 0;
+	margin:0;
+}
+#first_col a.left.carousel-control, #first_col a.right.carousel-control {
+	margin: 0;
+	padding: 0;
+
+
+}
+/*-------------Styling for individual Project Page ends here ------------------*/
+
+/*------------- Other stuff that was found in the bootstrap CSS but doesn't belong there ------------------*/
+
+
+code,kbd,pre,samp{
+	font-family:monospace,serif;
+	font-size:1em;
+}
+
+pre{
+	white-space:pre-wrap;
+}
+
+q{
+	quotes:"\201C" "\201D" "\2018" "\2019";
+}
+
+fieldset{
+	padding:.35em .625em .75em;
+	margin:0 2px;
+}
+
+legend{
+	padding:0;
+	border:0;
+}
+
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<defs>
+	<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="1.173" y="1.174" width="498.654" height="498.654">
+		
+			<feColorMatrix  type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0" color-interpolation-filters="sRGB" result="source"/>
+		<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+		<feBlend  in="source" in2="back" mode="normal"/>
+	</filter>
+</defs>
+<mask maskUnits="userSpaceOnUse" x="1.173" y="1.174" width="498.654" height="498.654" id="SVGID_1_">
+	<g filter="url(#Adobe_OpacityMaskFilter)">
+		<g enable-background="new    ">
+			<path fill="#FFFFFF" d="M114.285,344.289l-57.09-176.458h39.791l39.295,124.063h0.495l39.789-124.063H216.6l-58.572,176.458
+				H114.285z"/>
+			<path fill="#FFFFFF" d="M270.475,167.831v176.458h-38.8V167.831H270.475L270.475,167.831z"/>
+			<path fill="#FFFFFF" d="M384.158,167.831c11.038,0,20.428,1.606,28.174,4.819c7.742,3.213,14.046,7.455,18.909,12.728
+				c4.855,5.275,8.402,11.288,10.628,18.041c2.223,6.758,3.334,13.759,3.334,21.006c0,7.087-1.113,14.048-3.334,20.884
+				c-2.228,6.839-5.771,12.894-10.628,18.166c-4.86,5.272-11.166,9.512-18.909,12.727c-7.744,3.213-17.135,4.82-28.174,4.82H343.38
+				v63.268h-38.8V167.831H384.158L384.158,167.831z M373.533,250.87c4.447,0,8.729-0.328,12.849-0.989
+				c4.118-0.656,7.742-1.936,10.877-3.831c3.127-1.891,5.645-4.572,7.538-8.032c1.893-3.459,2.842-7.99,2.842-13.593
+				c0-5.598-0.948-10.132-2.842-13.593c-1.895-3.459-4.411-6.136-7.538-8.032c-3.132-1.891-6.759-3.169-10.877-3.83
+				c-4.119-0.655-8.4-0.989-12.849-0.989H343.38v52.888L373.533,250.87L373.533,250.87z"/>
+		</g>
+	</g>
+</mask>
+<circle opacity="0.4" mask="url(#SVGID_1_)" cx="250.5" cy="250.501" r="249.327"/>
+</svg>

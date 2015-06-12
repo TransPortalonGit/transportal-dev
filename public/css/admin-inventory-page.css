@@ -1,0 +1,42 @@
+/* Custom Panels */
+
+.huge {
+    font-size: 18px;
+}
+
+.smaller {
+	font-size: 12px;
+}
+
+.panel-aqua {
+    border-color: #26965f;
+}
+
+.panel-aqua .panel-heading {
+    border-color: #26965f;
+    color: #fff;
+    background-color: #26965f;
+}
+
+.panel-aqua a {
+    color: #26965f;
+}
+
+.panel-aqua a:hover {
+    color: #c0cef1;
+}
+
+.custom-center {
+     margin-left: 12px;
+}
+
+/* Forms and components */
+
+.form-container {
+    width: 723px;
+    margin: 0 auto;
+}
+
+label.control-label {
+    color:black;
+}

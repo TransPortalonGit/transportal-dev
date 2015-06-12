@@ -1,0 +1,12 @@
+<Context>
+  <Database dbname="db380349546" type="generic">
+    <Connection type="mysql" adtype="driver">
+      <DataSource>localhost</DataSource>
+      <Login>root</Login>
+      <Password>gD+8NQ==</Password>
+      <Port>3306</Port>
+      <DatabaseMode>all</DatabaseMode>
+      <DataTreeName>mysql.con</DataTreeName>
+    </Connection>
+  </Database>
+</Context>
